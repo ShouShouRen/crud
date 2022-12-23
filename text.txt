@@ -1,0 +1,8 @@
+選取資料表 SELECT * FROM 表名
+選取資料表內的欄位 SELECT * FROM 表名 WHERE 欄位名稱 = ?的欄位資料
+
+新增資料 INSERT INTO 表名(欄位名稱1,欄位名稱2,欄位名稱3,欄位名稱4,欄位名稱5) VALUES(?,?,?,?,?);
+刪除資料 DELETE FROM 表名 WHERE id = ?
+更新資料 UPDATE 表名 SET 欄位名稱 = 欄位要修改的值 WHERE id = 要修改資料的id
+
+
